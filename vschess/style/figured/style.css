@@ -7,16 +7,16 @@
     left: -30px;
     margin: auto;
 }
-.vschess-style-figured .vschess-piece:nth-of-type(1)::before { content: 'A'; }
-.vschess-style-figured .vschess-piece:nth-of-type(10)::before { content: 'B'; }
-.vschess-style-figured .vschess-piece:nth-of-type(19)::before { content: 'C'; }
-.vschess-style-figured .vschess-piece:nth-of-type(28)::before { content: 'D'; }
-.vschess-style-figured .vschess-piece:nth-of-type(37)::before { content: 'E'; }
-.vschess-style-figured .vschess-piece:nth-of-type(46)::before { content: 'F'; }
-.vschess-style-figured .vschess-piece:nth-of-type(55)::before { content: 'G'; }
-.vschess-style-figured .vschess-piece:nth-of-type(64)::before { content: 'H'; }
-.vschess-style-figured .vschess-piece:nth-of-type(73)::before { content: 'I'; }
-.vschess-style-figured .vschess-piece:nth-of-type(82)::before { content: 'J'; }
+.vschess-style-figured .vschess-piece:nth-of-type(1)::before { content: 'a'; }
+.vschess-style-figured .vschess-piece:nth-of-type(10)::before { content: 'b'; }
+.vschess-style-figured .vschess-piece:nth-of-type(19)::before { content: 'c'; }
+.vschess-style-figured .vschess-piece:nth-of-type(28)::before { content: 'd'; }
+.vschess-style-figured .vschess-piece:nth-of-type(37)::before { content: 'e'; }
+.vschess-style-figured .vschess-piece:nth-of-type(46)::before { content: 'f'; }
+.vschess-style-figured .vschess-piece:nth-of-type(55)::before { content: 'g'; }
+.vschess-style-figured .vschess-piece:nth-of-type(64)::before { content: 'h'; }
+.vschess-style-figured .vschess-piece:nth-of-type(73)::before { content: 'i'; }
+.vschess-style-figured .vschess-piece:nth-of-type(82)::before { content: 'j'; }
 .vschess-style-figured .vschess-board, .vschess-style-figured .vschess-board-edit { width:675px; height:750px; padding:10px; background:url('board.png'), url(board.jpg) no-repeat center center; background-size:100%; }
 .vschess-style-figured .vschess-piece, .vschess-style-figured .vschess-piece-animate, .vschess-style-figured .vschess-piece-disabled { width:75px; height:75px; background-size:100%; }
 .vschess-style-figured .vschess-piece-S { background:url(piece.png) no-repeat 0px -1050px; background-size:100%; }
