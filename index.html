@@ -25,7 +25,7 @@ $.ajax({
 	success: function(chessData){
 		try { console.time("棋盘加载时间"); } catch (e) {}
 
-		chess = new vschess.load(".vschess", { chessData: chessData, defaultTab: "comment", loadFinish: function(){
+		chess = new vschess.load(".vschess", { chessData: chessData, style: "figured", layout: "mobile", defaultTab: "board", loadFinish: function(){
 			try { console.timeEnd("棋盘加载时间"); } catch (e) {}
 		} });
 	}
