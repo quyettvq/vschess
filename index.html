@@ -28,6 +28,8 @@ $.ajax({
 		chess = new vschess.load(".vschess", { chessData: chessData, style: "figured", layout: "mobile", defaultTab: "board", loadFinish: function(){
 			try { console.timeEnd("棋盘加载时间"); } catch (e) {}
 		} });
+
+		console.log(chess);
 	}
 });
 </script>
