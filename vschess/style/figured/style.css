@@ -57,7 +57,7 @@
 .vschess-style-figured .vschess-board .vschess-piece-animate:before,
 .vschess-style-figured .vschess-board-edit .vschess-piece:before,
 .vschess-style-figured .vschess-board-edit .vschess-piece-animate:before {
-    transform: translate(0, -25px);
+    transform: translate(0, -30px);
 }
 
 .vschess-style-figured .vschess-piece-R:before {
@@ -164,6 +164,7 @@
     bottom: 0;
     left: -30px;
     margin: auto;
+    text-transform: uppercase;
 }
 
 .vschess-style-figured .vschess-board .vschess-piece:nth-of-type(1):after {
