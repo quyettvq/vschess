@@ -44,23 +44,25 @@
 <body>
 	<div class="vschess"></div>
 	<script type="text/javascript">
+		var vschess;
 		var params = new URL(document.location).searchParams;
 		var filename = params.get("data") || "dhtmlxq";
 		$.ajax({
 			url: filename + ".txt",
 			success: function (chessData) {
-				new vschess.load(".vschess", {
+				vschess = new vschess.load(".vschess", {
 					chessData: chessData,
-					style: "figured",
+					style: "mobile",
 					layout: "mobile",
 					defaultTab: "board",
 					loadFinish: function () {
-						
+						console.log(vschess);
 					}
 				});
 			}
 		});
 	</script>
+
 </body>
 
 </html>

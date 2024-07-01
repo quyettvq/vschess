@@ -1749,7 +1749,7 @@ $.extend(vschess.defaultOptions, {
         share: "\u68cb\u8c31\u5206\u4eab",
         export: "\u68cb\u8c31\u5bfc\u51fa",
         edit: "\u68cb\u8c31\u5bfc\u5165",
-        config: "\u68cb\u76d8\u9009\u9879"
+        cafig: "\u68cb\u76d8\u9009\u9879"
     }
 });
 
